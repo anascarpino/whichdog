@@ -32,6 +32,28 @@
 	document.getElementById("a5.2").href="a5.html";
 	document.getElementById("a5.3").href="a5.html";
 	document.getElementById("a5.4").href="a5.html";
+	document.getElementById("a6").href="manu.html";
+	document.getElementById("a6.1").href="manu.html";
+	document.getElementById("a6.2").href="manu.html";
+	document.getElementById("a6.3").href="manu.html";
+	document.getElementById("a6.4").href="manu.html";
+	document.getElementById("a7").href="manu.html";
+	document.getElementById("a7.1").href="manu.html";
+	document.getElementById("a7.2").href="manu.html";
+	document.getElementById("a7.3").href="manu.html";
+	document.getElementById("a7.4").href="manu.html";
+	document.getElementById("a8").href="manu.html";
+	document.getElementById("a8.1").href="manu.html";
+	document.getElementById("a8.2").href="manu.html";
+	document.getElementById("a8.3").href="manu.html";
+	document.getElementById("a8.4").href="manu.html";
+	document.getElementById("a9").href="manu.html";
+	document.getElementById("a9.1").href="manu.html";
+	document.getElementById("a9.2").href="manu.html";
+	document.getElementById("a9.3").href="manu.html";
+	document.getElementById("a9.4").href="manu.html";
+	document.getElementById("a10").href="manu.html";
+	document.getElementById("a10.1").href="manu.html";
 	// links da aba "médio porte"
 	document.getElementById("b1").href="b1.html";
 	document.getElementById("b1.1").href="b1.html";
@@ -62,3 +84,87 @@
 	document.getElementById("b9.2").href="b9.html";
 	document.getElementById("b9.3").href="b9.html";
 	// links da aba "grande porte"
+	document.getElementById("c1").href="c1.html";
+	document.getElementById("c1.1").href="c1.html";
+	document.getElementById("c1.2").href="c1.html";
+	document.getElementById("c1.3").href="c1.html";
+	document.getElementById("c1.4").href="c1.html";
+	document.getElementById("c2").href="c2.html";
+	document.getElementById("c2.1").href="c2.html";
+	document.getElementById("c2.2").href="c2.html";
+	document.getElementById("c2.3").href="c2.html";
+	document.getElementById("c2.4").href="c2.html";
+	document.getElementById("c3").href="manu.html";
+	document.getElementById("c3.1").href="manu.html";
+	document.getElementById("c3.2").href="manu.html";
+	document.getElementById("c3.3").href="manu.html";
+	document.getElementById("c3.4").href="manu.html";
+	document.getElementById("c4").href="manu.html";
+	document.getElementById("c4.1").href="manu.html";
+	document.getElementById("c4.2").href="manu.html";
+	document.getElementById("c4.3").href="manu.html";
+	document.getElementById("c4.4").href="manu.html";
+	document.getElementById("c5").href="manu.html";
+	document.getElementById("c5.1").href="manu.html";
+	document.getElementById("c5.2").href="manu.html";
+	document.getElementById("c5.3").href="manu.html";
+	document.getElementById("c5.4").href="manu.html";
+	document.getElementById("c6").href="manu.html";
+	document.getElementById("c6.1").href="manu.html";
+	document.getElementById("c6.2").href="manu.html";
+	document.getElementById("c6.3").href="manu.html";
+	document.getElementById("c6.4").href="manu.html";
+	document.getElementById("c7").href="manu.html";
+	document.getElementById("c7.1").href="manu.html";
+	document.getElementById("c7.2").href="manu.html";
+	document.getElementById("c7.3").href="manu.html";
+	document.getElementById("c7.4").href="manu.html";
+	document.getElementById("c8").href="manu.html";
+	document.getElementById("c8.1").href="manu.html";
+	document.getElementById("c8.2").href="manu.html";
+	document.getElementById("c8.3").href="manu.html";
+	document.getElementById("c8.4").href="manu.html";
+	document.getElementById("c9").href="manu.html";
+	document.getElementById("c9.1").href="manu.html";
+	document.getElementById("c9.2").href="manu.html";
+	document.getElementById("c3.3").href="manu.html";
+	document.getElementById("c9.4").href="manu.html";
+	document.getElementById("c10").href="manu.html";
+	document.getElementById("c10.1").href="manu.html";
+	document.getElementById("c10.2").href="manu.html";
+	document.getElementById("c10.3").href="manu.html";
+	document.getElementById("c10.4").href="manu.html";
+	document.getElementById("c11").href="manu.html";
+	document.getElementById("c11.1").href="manu.html";
+	document.getElementById("c11.2").href="manu.html";
+	document.getElementById("c11.3").href="manu.html";
+	document.getElementById("c11.4").href="manu.html";
+	document.getElementById("c12").href="manu.html";
+	document.getElementById("c12.1").href="manu.html";
+	document.getElementById("c12.2").href="manu.html";
+	document.getElementById("c12.3").href="manu.html";
+	document.getElementById("c12.4").href="manu.html";
+	document.getElementById("c13").href="manu.html";
+	document.getElementById("c13.1").href="manu.html";
+	document.getElementById("c13.2").href="manu.html";
+	document.getElementById("c13.3").href="manu.html";
+	// links da aba "adoção"
+	document.getElementById("ad1").href="https://www.facebook.com/PatinhasCarentes?fref=ts";
+	document.getElementById("ad2").href="https://www.facebook.com/sociedadeprotetorados.animais.7";
+	document.getElementById("ad3").href="https://www.facebook.com/pages/Albergue-Espa%C3%A7o-Esperan%C3%A7a/448069368591049?fref=ts";
+	//função se seleção de abas
+	function sel(idaba){
+		var aba=document.getElementById(idaba);
+		var nAbas="4"; <!-- colocar o nÃºmero de abas  1
+		for(var i="1";i<nAbas;i++){
+			var id="aba"+i;
+			document.getElementById(id).className="unsel";
+		}
+		aba.className="sel";
+		for(var u="1";u<nAbas;u++){
+			var idt="textaba"+u;
+			document.getElementById(idt).className="divunsel";
+		}
+		var iddiv="text"+idaba;
+		document.getElementById(iddiv).className="divsel";
+	}

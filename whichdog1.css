@@ -38,13 +38,6 @@ title {
 	text-decoration: none;
 }
 
-/*#tab1 {
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: auto;
-	margin-bottom: auto;
-}*/
-
 #tab2 {
 	margin-right: auto;
 	margin-left: auto;
@@ -102,7 +95,7 @@ html {
 }
 
 #textaba1 ul li a:hover {
-	border-bottom:3px solid red;
+	color: red;
 }
 
 #textaba2 {
@@ -130,7 +123,7 @@ html {
 }
 
 #textaba2 ul li a:hover {
-	border-bottom:3px solid red;
+	color: red;
 }
 
 #textaba3 {
@@ -158,6 +151,59 @@ html {
 }
 
 #textaba3 ul li a:hover {
-	border-bottom:3px solid red;
+	color: red;
 }
 
+#textaba4 {
+	text-align: center;
+	color: white;
+}
+
+#textaba4 ul {
+	list-style-type: none;
+	line-height: 20px;
+}
+
+#textaba4 ul li a {
+	text-decoration:none;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+#textaba4 a:hover {
+	cursor: pointer;
+	color: red;
+	font-family: Arial;
+	font-size: 20px;
+	text-decoration: none;
+}
+	
+#aba1:hover {
+	cursor: pointer;
+}
+
+#aba2:hover {
+	cursor: pointer;
+}
+
+#aba3:hover {
+	cursor: pointer;
+}
+
+#aba4:hover {
+	cursor: pointer;
+}
+
+#manuh1 {
+	font-family: Arial;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	padding-top: 150px;
+}
+
+#manuimg {
+	position:absolute;
+	left:50%;
+	top:50%;
+}

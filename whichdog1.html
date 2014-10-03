@@ -64,24 +64,6 @@
 			</div>
 		</div>
 		<div align="center" id="aba">
-			<script language="JavaScript">
-				function sel(idaba){
-					var aba=document.getElementById(idaba);
-					var nAbas="4"; <!-- colocar o número de abas  1
-					for(var i="1";i<nAbas;i++){
-						var id="aba"+i;
-						document.getElementById(id).className="unsel";
-					}
-					aba.className="sel";
-			
-					for(var u="1";u<nAbas;u++){
-						var idt="textaba"+u;
-						document.getElementById(idt).className="divunsel";
-					}
-					var iddiv="text"+idaba;
-					document.getElementById(iddiv).className="divsel";
-				}
-			</script>
 			<table width="100%" border="0" align="center" cellspacing="0" id="t_abas">
 				<tr id="tr_abas">
 					<td id="aba1" class="unsel" onClick="sel(this.id)">Pequeno Porte</a></td>
@@ -91,12 +73,7 @@
 				</tr>
 			</table>
 		</div>
-		<div id="textaba1" class="divunsel" onClick="changeClass(this.id)">
-			<script>
-				function changeClass(id){
-					document.getElementById(id).className="divsel";
-				}
-			</script>
+		<div id="textaba1" class="divunsel">
 				<ul>
 					<li><a id="a1" href="#">Basenji</a></li>
 					<li><a id="a1.1" href="#">Basset Fulvo da Bretanha</a></li>
@@ -115,28 +92,28 @@
 					<li><a id="a5.2" href="#">Jack Russell Terrier</a></li>
 					<li><a id="a5.3" href="#">Keeshond</a></li>
 					<li><a id="a5.4" href="#">Kerry Blue Terrier</a></li>
-					<li><a id="a6.2" href="#">Lhasa Apso</a></li>
-					<li><a id="a7" href="#">Lulu da Pomer&acircnia</a></li>
-					<li><a id="a7.1"href="#">Malt&ecircs</a></li>
-					<li><a id="a7.2" href="#">Norfolk Terrier</li>
-					<li><a id="a8" href="#">Pequin&ecircs</a></li>
-					<li><a id="a8.1" href="#">Pinscher</a></li>
-					<li><a id="a8.2" href="#">Podengo Portugu&ecircs</a></li>
-					<li><a id="a9" href="#">Poodle</a></li>
-					<li><a id="a9.1" href="#">Pug</a></li>
-					<li><a id="a9.2" href="#">Puli</a></li>
-					<li><a id="a10" href="#">Schipperke</a></li>
-					<li><a id="a10.1" href="#">Schnauzer Miniatura</a></li>
-					<li><a id="a10.2" href="#">Shiba</a></li>
-					<li><a id="a11" href="#">Scottish Terrier</a></li>
-					<li><a id="a11.1" href="#">Shih Tzu</a></li>
-					<li><a id="a11.2" href="#">Spitz Alem&atildeo</a></li>
-					<li><a id="a12" href="#">Teckel</a></li>
-					<li><a id="a12.1" href="#">Terrier Brasileiro</a></li>
-					<li><a id="a12.2" href="#">Welsh Corgi Cardigan</a></li>
-					<li><a id="a13"href="#">Welsh Corgi Pembroke</a></li>
-					<li><a id="a13.1" href="#">W. Highland Terrier</a></li>
-					<li><a id="a13.2" href="#">Yorkshire Terrier</a></li>
+					<li><a id="a6" href="#">Lhasa Apso</a></li>
+					<li><a id="a6.1" href="#">Lulu da Pomer&acircnia</a></li>
+					<li><a id="a6.2"href="#">Malt&ecircs</a></li>
+					<li><a id="a6.3" href="#">Norfolk Terrier</li>
+					<li><a id="a6.4" href="#">Pequin&ecircs</a></li>
+					<li><a id="a7" href="#">Pinscher</a></li>
+					<li><a id="a7.1" href="#">Podengo Portugu&ecircs</a></li>
+					<li><a id="a7.2" href="#">Poodle</a></li>
+					<li><a id="a7.3" href="#">Pug</a></li>
+					<li><a id="a7.4" href="#">Puli</a></li>
+					<li><a id="a8" href="#">Schipperke</a></li>
+					<li><a id="a8.1" href="#">Schnauzer Miniatura</a></li>
+					<li><a id="a8.2" href="#">Shiba</a></li>
+					<li><a id="a8.3" href="#">Scottish Terrier</a></li>
+					<li><a id="a8.4" href="#">Shih Tzu</a></li>
+					<li><a id="a9" href="#">Spitz Alem&atildeo</a></li>
+					<li><a id="a9.1" href="#">Teckel</a></li>
+					<li><a id="a9.2" href="#">Terrier Brasileiro</a></li>
+					<li><a id="a9.3" href="#">Welsh Corgi Cardigan</a></li>
+					<li><a id="a9.4"href="#">Welsh Corgi Pembroke</a></li>
+					<li><a id="a10" href="#">W. Highland Terrier</a></li>
+					<li><a id="a10.1" href="#">Yorkshire Terrier</a></li>
 				</ul>
 		</div>
 		<div id="textaba2" class="divunsel">
@@ -173,73 +150,79 @@
 		</div>
 		<div id="textaba3" class="divunsel">
 				<ul>
-					<li><a href="c1">Afghan Hound</a></li>
-					<li><a href="c1.1">Airedale Terrier</a></li>
-					<li><a href="c1.2">Akbash Dog</a></li>
-					<li><a href="c1.3">Akita Americano</a></li>
-					<li><a href="c1.4">Akita Inu</a></li>
-					<li><a href="c2">Bearded Collie</a></li>
-					<li><a href="c2.1">Bernese Mountain Dog</a></li>
-					<li><a href="c2.2">Bloodhound</a></li>
-					<li><a href="c2.3">Borzoi</a></li>
-					<li><a href="c3.4">Bouvier de Flandres</a></li>
-					<li><a href="#">Braco Alem&atildeo</a></li>
-					<li><a href="#">Braco Italiano</a></li>
-					<li><a href="#">Briard</a></li>
-					<li><a href="#">Bullmastiff</a></li>
-					<li><a href="#">Cane Corso Italiano</a></li>
-					<li><a href="#">C&atildeo da Serra da Estrela</a></li>
-					<li><a href="#">C&atildeo D'&aacutegua Portugu&ecircs</a></li>
-					<li><a href="#">C&atildeo Fila de S&atildeo Miguel</a></li>
-					<li><a href="#">Cimarr&oacuten Uruguayo</a></li>
-					<li><a href="#">Cuvac</a></li>
-					<li><a href="#">Dogue de Bordeaux</a></li>
-					<li><a href="#">D&aacutelmata</a></li>
-					<li><a href="#">Dobermann</a></li>
-					<li><a href="#">Dogo Argentino</a></li>
-					<li><a href="#">Dogue Alem&atildeo</a></li>
-					<li><a href="#">Fila Brasileiro</a></li>
-					<li><a href="#">Foxhound Ingl&ecircs</a></li>
-					<li><a href="#">Greyhound</a></li>
-					<li><a href="#">Husky Siberiano</a></li>
-					<li><a href="#">Komondor</a></li>
-					<li><a href="#">Kuvasz</a></li>
-					<li><a href="#">Malamute do Alaska</a></li>
-					<li><a href="#">Maremmano</a></li>
-					<li><a href="#">Mastim Espanhol</a></li>
-					<li><a href="#">Mastim Tibetano</a></li>
-					<li><a href="#">Mastiff</a></li>
-					<li><a href="#">Mastino Napoletano</a></li>
-					<li><a href="#">Otterhound</a></li>
-					<li><a href="#">O. E. Sheepdog</a></li>
-					<li><a href="#">Pastor Alem&atildeo</a></li>
-					<li><a href="#">Pastor de Beauce</a></li>
-					<li><a href="#">Pastor Belga</a></li>
-					<li><a href="#">Pastor Belga Groenendael</a></li>
-					<li><a href="#">Pastor Belga Laekenois</a></li>
-					<li><a href="#">Pastor Belga Malinois</a></li>
-					<li><a href="#">Pastor Belga Tervuren</a></li>
-					<li><a href="#">Pastor Branco Su&ccedilo</a></li>
-					<li><a href="#">Pastor de C&aacuteucaso</a></li>
-					<li><a href="#">Pastor de Tatra</a></li>
-					<li><a href="#">Pastor dos Pirineus</a></li>
-					<li><a href="#">Perdigueiro</a></li>
-					<li><a href="#">Pointer Ingl&ecircs</a></li>
-					<li><a href="#">Rhodesian Ridgeback</a></li>
-					<li><a href="#">Rottweiler</a></li>
-					<li><a href="#">Saluki</a></li>
-					<li><a href="#">Setter Gordon</a></li>
-					<li><a href="#">S&atildeo Bernardo</a></li>
-					<li><a href="#">Setter Ingl&ecircs</a></li>
-					<li><a href="#">Setter Irland&ecircs</a></li>
-					<li><a href="#">Terra Nova</a></li>
-					<li><a href="#">Tosa</a></li>
-					<li><a href="#">Vizsla</a></li>
-					<li><a href="#">Weimaraner</a></li>
-					<li><a href="#">Wolfhound Irland&ecircs</a></li>
+					<li><a id="c1" href="#">Afghan Hound</a></li>
+					<li><a id="c1.1" href="#">Airedale Terrier</a></li>
+					<li><a id="c1.2" href="#">Akbash Dog</a></li>
+					<li><a id="c1.3" href="#">Akita Americano</a></li>
+					<li><a id="c1.4" href="#">Akita Inu</a></li>
+					<li><a id="c2" href="#">Bearded Collie</a></li>
+					<li><a id="c2.1" href="#">Bernese Mountain Dog</a></li>
+					<li><a id="c2.2" href="#">Bloodhound</a></li>
+					<li><a id="c2.3" href="#">Borzoi</a></li>
+					<li><a id="c2.4" href="#">Bouvier de Flandres</a></li>
+					<li><a id="c3" href="#">Braco Alem&atildeo</a></li>
+					<li><a id="c3.1" href="#">Braco Italiano</a></li>
+					<li><a id="c3.2" href="#">Briard</a></li>
+					<li><a id="c3.3" href="#">Bullmastiff</a></li>
+					<li><a id="c3.4" href="#">Cane Corso Italiano</a></li>
+					<li><a id="c4" href="#">C&atildeo da Serra da Estrela</a></li>
+					<li><a id="c4.1" href="#">C&atildeo D'&aacutegua Portugu&ecircs</a></li>
+					<li><a id="c4.2" href="#">C&atildeo Fila de S&atildeo Miguel</a></li>
+					<li><a id="c4.3" href="#">Cimarr&oacuten Uruguayo</a></li>
+					<li><a id="c4.4" href="#">Cuvac</a></li>
+					<li><a id="c5" href="#">Dogue de Bordeaux</a></li>
+					<li><a id="c5.1" href="#">D&aacutelmata</a></li>
+					<li><a id="c5.2" href="#">Dobermann</a></li>
+					<li><a id="c5.3" href="#">Dogo Argentino</a></li>
+					<li><a id="c5.4" href="#">Dogue Alem&atildeo</a></li>
+					<li><a id="c6" href="#">Fila Brasileiro</a></li>
+					<li><a id="c6.1" href="#">Foxhound Ingl&ecircs</a></li>
+					<li><a id="c6.2" href="#">Greyhound</a></li>
+					<li><a id="c6.3" href="#">Husky Siberiano</a></li>
+					<li><a id="c6.4" href="#">Komondor</a></li>
+					<li><a id="c7" href="#">Kuvasz</a></li>
+					<li><a id="c7.1" href="#">Malamute do Alaska</a></li>
+					<li><a id="c7.2" href="#">Maremmano</a></li>
+					<li><a id="c7.3" href="#">Mastim Espanhol</a></li>
+					<li><a id="c7.4" href="#">Mastim Tibetano</a></li>
+					<li><a id="c8" href="#">Mastiff</a></li>
+					<li><a id="c8.1" href="#">Mastino Napoletano</a></li>
+					<li><a id="c8.2" href="#">Otterhound</a></li>
+					<li><a id="c8.3" href="#">O. E. Sheepdog</a></li>
+					<li><a id="c8.4" href="#">Pastor Alem&atildeo</a></li>
+					<li><a id="c9" href="#">Pastor de Beauce</a></li>
+					<li><a id="c9.1" href="#">Pastor Belga</a></li>
+					<li><a id="c9.2" href="#">Pastor Belga Groenendael</a></li>
+					<li><a id="c9.3" href="#">Pastor Belga Laekenois</a></li>
+					<li><a id="c9.4" href="#">Pastor Belga Malinois</a></li>
+					<li><a id="c10" href="#">Pastor Belga Tervuren</a></li>
+					<li><a id="c10.1" href="#">Pastor Branco Su&ccedilo</a></li>
+					<li><a id="c10.2" href="#">Pastor de C&aacuteucaso</a></li>
+					<li><a id="c10.3" href="#">Pastor de Tatra</a></li>
+					<li><a id="c10.4" href="#">Pastor dos Pirineus</a></li>
+					<li><a id="c11" href="#">Perdigueiro</a></li>
+					<li><a id="c11.1" href="#">Pointer Ingl&ecircs</a></li>
+					<li><a id="c11.2" href="#">Rhodesian Ridgeback</a></li>
+					<li><a id="c11.3" href="#">Rottweiler</a></li>
+					<li><a id="c11.4" href="#">Saluki</a></li>
+					<li><a id="c12" href="#">Setter Gordon</a></li>
+					<li><a id="c12.1" href="#">S&atildeo Bernardo</a></li>
+					<li><a id="c12.2" href="#">Setter Ingl&ecircs</a></li>
+					<li><a id="c12.3" href="#">Setter Irland&ecircs</a></li>
+					<li><a id="c12.4" href="#">Terra Nova</a></li>
+					<li><a id="c13" href="#">Tosa</a></li>
+					<li><a id="c13.1" href="#">Vizsla</a></li>
+					<li><a id="c13.2" href="#">Weimaraner</a></li>
+					<li><a id="c13.3" href="#">Wolfhound Irland&ecircs</a></li>
 				</ul>
 		</div>
 		<div id="textaba4" class="divunsel">
+			<h1>Contatos para ado&ccedil&atildeo em no Esp&iacuterito Santo:</h1>
+			<ul>
+				<li><a id="ad1" href="#">Patinhas Carentes</a></li>
+				<li><a id="ad2" href="#">SOPAES - Sociedade Protetora dos Animais</a></li>
+				<li><a id="ad3" href="#">Albergue Espa&ccedilo Esperan&ccedila</a></li>
+			</ul>
 		</div>
 		<script src="whichdog1.js"></script>
 	</body>
