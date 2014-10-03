@@ -89,11 +89,11 @@
 	document.getElementById("c1.2").href="c1.html";
 	document.getElementById("c1.3").href="c1.html";
 	document.getElementById("c1.4").href="c1.html";
-	document.getElementById("c2").href="c2.html";
-	document.getElementById("c2.1").href="c2.html";
-	document.getElementById("c2.2").href="c2.html";
-	document.getElementById("c2.3").href="c2.html";
-	document.getElementById("c2.4").href="c2.html";
+	document.getElementById("c2").href="manu.html";
+	document.getElementById("c2.1").href="manu.html";
+	document.getElementById("c2.2").href="manu.html";
+	document.getElementById("c2.3").href="manu.html";
+	document.getElementById("c2.4").href="manu.html";
 	document.getElementById("c3").href="manu.html";
 	document.getElementById("c3.1").href="manu.html";
 	document.getElementById("c3.2").href="manu.html";
