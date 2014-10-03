@@ -38,12 +38,12 @@ title {
 	text-decoration: none;
 }
 
-#tab1 {
+/*#tab1 {
 	margin-right: auto;
 	margin-left: auto;
 	padding-top: auto;
 	margin-bottom: auto;
-}
+}*/
 
 #tab2 {
 	margin-right: auto;
@@ -75,5 +75,89 @@ a {
 
 html {
 	background-color: black;
+}
+
+#textaba1 {
+	text-align: center;
+	line-height: 30px;
+}
+
+#textaba1 ul {
+	padding: 50px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+#textaba1 ul li {
+	display: inline;
+}
+
+#textaba1 ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+}
+
+#textaba1 ul li a:hover {
+	border-bottom:3px solid red;
+}
+
+#textaba2 {
+	text-align: center;
+	line-height: 30px;
+}
+
+#textaba2 ul {
+	padding: 50px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+#textaba2 ul li {
+	display: inline;
+}
+
+#textaba2 ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+}
+
+#textaba2 ul li a:hover {
+	border-bottom:3px solid red;
+}
+
+#textaba3 {
+	text-align: center;
+	line-height: 30px;
+}
+
+#textaba3 ul {
+	padding: 50px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+#textaba3 ul li {
+	display: inline;
+}
+
+#textaba3 ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+}
+
+#textaba3 ul li a:hover {
+	border-bottom:3px solid red;
 }
 
