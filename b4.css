@@ -1,0 +1,58 @@
+.bulldog h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.bull h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.chow h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.bulldog p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.bull p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.chow p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.bulldog h3 {
+	color: #fff;
+}
+
+.bull h3 {
+	color: #fff;
+}
+
+.chow h3 {
+	color: #fff;
+}

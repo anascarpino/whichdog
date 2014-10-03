@@ -1,0 +1,51 @@
+.frise h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.havanes h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.boston h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+html {
+	background-color: black;
+}
+
+.frise p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.havanes p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.boston p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.frise h3 {
+	color: #fff;
+}
+
+.havanes h3 {
+	color: #fff;
+}
+
+.boston h3 {
+	color: #fff;
+}

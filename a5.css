@@ -1,0 +1,89 @@
+.duro h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.liso h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.jack h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.keeshond h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.kerry h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.duro p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.liso p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.keeshond p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.jack p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.kerry p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.duro h3 {
+	color: #fff;
+}
+
+.liso h3 {
+	color: #fff;
+}
+
+.jack h3 {
+	color: #fff;
+}
+
+.keeshond h3 {
+	color: #fff;
+}
+
+.kerry h3 {
+	color: #fff;
+}

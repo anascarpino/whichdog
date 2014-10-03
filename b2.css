@@ -1,0 +1,58 @@
+.barbet h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.griffon h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.hound h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.barbet p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.griffon p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.hound p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.barbet h3 {
+	color: #fff;
+}
+
+.griffon h3 {
+	color: #fff;
+}
+
+.hound h3 {
+	color: #fff;
+}

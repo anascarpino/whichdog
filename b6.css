@@ -1,0 +1,58 @@
+.flat h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.golden h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.labrador h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.flat p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.golden p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.labrador p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.flat h3 {
+	color: #fff;
+}
+
+.golden h3 {
+	color: #fff;
+}
+
+.labrador h3 {
+	color: #fff;
+}

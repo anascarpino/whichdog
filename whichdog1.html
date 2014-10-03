@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="whichdog1.css" rel="stylesheet">
+		<title>Which Dog?</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<style type="text/css">
+			.unsel {
+				border-bottom-width: 3px;
+				border-bottom-style: solid;
+				border-bottom-color: #FFF; <!-- Cor da borda da aba -->
+				font-style: normal;
+				color: #FFF;
+				font-family: Arial;
+				font-weight: bold;
+				text-align: center;
+			}
+			.sel {
+				border-top-width: xlarge;
+				border-right-width: xlarge;
+				border-bottom-width: 0px;
+				border-left-width: xlarge;
+				border-top-style: solid;
+				border-right-style: solid;
+				border-bottom-style: none;
+				border-left-style: solid;
+				border-top-color: #FFF;<!-- cor da borda da aba-->
+				border-right-color: #FFF;<!-- cor da borda da aba-->
+				border-left-color: #FFF;<!-- cor da borda da aba-->
+				font-family: Arial;
+				font-weight: bold;
+				color: black;
+				text-align: center;
+				background-color: white;<!-- cor de fundo-->
+				font-style: normal;
+			}
+			.divsel {
+				visibility: visible;
+				position: center;
+				padding-top: 30px;
+				left: auto;<!-- distância do conteúdo em relação à esquerda do browser-->
+				top: auto;<!-- distância do conteúdo em relação ao topo-->
+				height: 520;<!-- altura do conteúdo-->
+				width: 984px;<!-- largura do conteúdo-->
+				background-color: #66CCFF;<!-- cor de fundo do conteúdo-->
+				right: auto;
+				bottom: auto;
+			}
+			.divunsel {
+				visibility: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="principal" class="principal">
+			<div id="main" class="main">
+				<img id="img1" src="#" />
+				<h1 id="id1">Which Dog?</h1>
+			</div>
+			<div class="nav">
+				<h1 id="id2">Est&aacute pensando em adotar algum cachorro?</h1>
+				<p id="p1">Site de ajuda para conhecimento de ra&ccedilas, para quem pretende ter um cachorro em casa.</p>
+			</div>
+		</div>
+		<div align="center" id="aba">
+			<script language="JavaScript">
+				function sel(idaba){
+					var aba=document.getElementById(idaba);
+					var nAbas="4"; <!-- colocar o número de abas  1
+					for(var i="1";i<nAbas;i++){
+						var id="aba"+i;
+						document.getElementById(id).className="unsel";
+					}
+					aba.className="sel";
+			
+					for(var u="1";u<nAbas;u++){
+						var idt="textaba"+u;
+						document.getElementById(idt).className="divunsel";
+					}
+					var iddiv="text"+idaba;
+					document.getElementById(iddiv).className="divsel";
+				}
+			</script>
+			<table width="100%" border="0" align="center" cellspacing="0" id="t_abas">
+				<tr id="tr_abas">
+					<td id="aba1" class="unsel" onClick="sel(this.id)">Pequeno Porte</a></td>
+					<td id="aba2" class="unsel" onClick="sel(this.id)">Medio Porte</a></td>
+					<td id="aba3" class="unsel" onClick="sel(this.id)">Grande Porte</a></td>
+					<td id="aba4" class="unsel" onClick="sel(this.id)">Ado&ccedil&atildeo</a></td>
+				</tr>
+			</table>
+		</div>
+		<div id="textaba1" class="divunsel" onClick="changeClass(this.id)">
+			<script>
+				function changeClass(id){
+					document.getElementById(id).className="divsel";
+				}
+			</script>
+			<table id="tab1">
+				<tr>
+					<td><a id="a1" href="#">Basenji</a></td>
+					<td><a id="a5.1" href="#">Fox Terrier Pelo Liso</a></td>
+					<td><a id="a9.2" href="#">Puli</a></td>
+				</tr>
+				<tr>
+					<td><a id="a1.1" href="#">Basset Fulvo da Bretanha</a></td>
+					<td><a id="a5.2" href="#">Jack Russell Terrier</a></td>
+					<td><a id="a10" href="#">Schipperke</a></td>
+				</tr>
+				<tr>
+					<td><a id="a1.2" href="#">Beagle</a></td>
+					<td><a id="a5.3" href="#">Keeshond</a></td>
+					<td><a id="a10.1" href="#">Schnauzer Miniatura</a></td>
+				</tr>
+				<tr>
+					<td><a id="a2" href="#">Bichon Fris&eacute</a></td>
+					<td><a id="a5.4" href="#">Kerry Blue Terrier</a></td>
+					<td><a id="a10.2" href="#">Shiba</a></td>
+				</tr>
+				<tr>
+					<td><a id="a2.1" href="#">Bichon Havan&ecircs</a></td>
+					<td><a id="a6.2" href="#">Lhasa Apso</a></td>
+					<td><a id="a11" href="#">Scottish Terrier</a></td>
+				</tr>
+				<tr>
+					<td><a id="a2.2" href="#">Boston Terrier</a></td>
+					<td><a id="a7" href="#">Lulu da Pomer&acircnia</a></td>
+					<td><a id="a11.1" href="#">Shih Tzu</a></td>
+				</tr>
+				<tr>
+					<td><a id="a3" href="#">Buldogue Franc&ecircs</a></td>
+					<td><a id="a7.1"href="#">Malt&ecircs</a></td>
+					<td><a id="a11.2" href="#">Spitz Alem&atildeo</a></td>
+				</tr>
+				<tr>
+					<td><a id="a3.1" href="#">Cairn Terrier</a></td>
+					<td><a id="a7.2" href="#">Norfolk Terrier</td>
+					<td><a id="a12" href="#">Teckel</a></td>
+				</tr>
+				<tr>
+					<td><a id="a3.2" href="#">Cavalier King Charles</a></td>
+					<td><a id="a8" href="#">Pequin&ecircs</a></td>
+					<td><a id="a12.1" href="#">Terrier Brasileiro</a></td>
+				</tr>
+				<tr>
+					<td><a id="a4" href="#">Chihuahua</a></td>
+					<td><a id="a8.1" href="#">Pinscher</a></td>
+					<td><a id="a12.2" href="#">Welsh Corgi Cardigan</a></td>
+				</tr>
+				<tr>
+					<td><a id="a4.1" href="#">Coton de Tul&eacutear</a></td>
+					<td><a id="a8.2" href="#">Podengo Portugu&ecircs</a></td>
+					<td><a id="a13"href="#">Welsh Corgi Pembroke</a></td>
+				</tr>
+				<tr>
+					<td><a id="a4.2" href="#">Cristado Chin&ecircs</a></td>
+					<td><a id="a9" href="#">Poodle</a></td>
+					<td><a id="a13.1" href="#">W. Highland Terrier</a></td>
+				</tr>
+				<tr>
+					<td><a id="a5" href="#">Fox Terrier Pelo Duro</a></td>
+					<td><a id="a9.1" href="#">Pug</a></td>
+					<td><a id="a13.2" href="#">Yorkshire Terrier</a></td>
+				</tr>
+			</table>
+		</div>
+		<div id="textaba2" class="divunsel">
+			<table id="tab2">
+				<tr>
+					<td><a id="b1" href="#">American Pitbull</a></td>
+					<td><a id="b5.2" href="#">Cocker Ingl&ecircs</a></td>
+				</tr>
+				<tr>
+					<td><a id="b1.1" href="#">Australian Cattle</a></td>
+					<td><a id="b6" href="#">Flat Coated Retriever</a></td>
+				</tr>
+				<tr>
+					<td><a id="b1.2" href="#">Australian Shepherd</a></td>
+					<td><a id="b6.1" href="#">Golden Retriever</a></td>
+				</tr>
+				<tr>
+					<td><a id="b2" href="#">Barbet</a></td>
+					<td><a id="b6.2" href="#">Labrador</a></td>
+				</tr>
+				<tr>
+					<td><a id="b2.1" href="#">Basset Griffon</a></td>
+					<td><a id="b7" href="#">Nova Scotia D. T. R.</a></td>
+				</tr>
+				<tr>
+					<td><a id="b2.2" href="#">Basset Hound</td>
+					<td><a id="b7.1" href="#">Pastor de Shetland</a></td>
+				</tr>
+				<tr>
+					<td><a id="b3" href="#">Border Collie</a></td>
+					<td><a id="b7.2" href="#">Podengo Portugu&ecircs</a></td>
+				</tr>
+				<tr>
+					<td><a id="b3.1" href="#">Boxer</td>
+					<td><a id="b8" href="#">Poodle</a></td>
+				</tr>
+				<tr>
+					<td><a id="b3.2" href="#">Bulldog Campeiro</a></td>
+					<td><a id="b8.1" href="#">Schnauzer Standard</a></td>
+				</tr>
+				<tr>
+					<td><a id="b4" href="#">Bulldog</a></td>
+					<td><a id="b8.2"href="#">Shar Pei</a></td>
+				</tr>
+				<tr>
+					<td><a id="b4.1" href="#">Bull Terrier</a></td>
+					<td><a id="b9" href="#">Spaniel Bret&atildeo</a></td>
+				</tr>
+				<tr>
+					<td><a id="b4.2" href="#">Chow Chow</a></td>
+					<td><a id="b9.1" href="#">Springer Spaniel Ingl&ecircs</a></td>
+				</tr>
+				<tr>
+					<td><a id="b5" href="#">Clumber Spaniel</a></td>
+					<td><a id="b9.2" href="#">Staff Bull Terrier</a></td>
+				</tr>
+				<tr>
+					<td><a id="b5.1" href="#">Cocker Americano</a></td>
+					<td><a id="b9.3" href="#">Terrier Tibetano</a></td>
+				</tr>
+			</table>
+		</div>
+		<div id="textaba3" class="divunsel">
+			<table id="tab3">
+				<tr>
+					<td><a href="afghan.html">Afghan Hound</a></td>
+					<td><a href="#">C&atildeo Fila de S&atildeo Miguel</a></td>
+					<td><a href="#">Mastim Espanhol</a></td>
+					<td><a href="#">Perdigueiro</a></td>
+				</tr>
+				<tr>
+					<td><a href="afghan.html">Airedale Terrier</a></td>
+					<td><a href="#">Cimarr&oacuten Uruguayo</a></td>
+					<td><a href="#">Mastim Tibetano</a></td>
+					<td><a href="#">Podengo Portugu&ecircs</a></td>
+				</tr>
+				<tr>
+					<td><a href="afghan.html">Akbash Dog</a></td>
+					<td><a href="#">Cuvac</a></td>
+					<td><a href="#">Mastiff</a></td>
+					<td><a href="#">Pointer Ingl&ecircs</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Akita Americano</a></td>
+					<td><a href="#">Dogue de Bordeaux</a></td>
+					<td><a href="#">Mastino Napoletano</a></td>
+					<td><a href="#">Poodle</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Akita Inu</a></td>
+					<td><a href="#">D&aacutelmata</a></td>
+					<td><a href="#">Otterhound</a></td>
+					<td><a href="#">Rhodesian Ridgeback</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Bearded Collie</a></td>
+					<td><a href="#">Dobermann</a></td>
+					<td><a href="#">O. E. Sheepdog</a></td>
+					<td><a href="#">Rottweiler</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Bernese Mountain Dog</a></td>
+					<td><a href="#">Dogo Argentino</a></td>
+					<td><a href="#">Pastor Alem&atildeo</a></td>
+					<td><a href="#">Saluki</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Bloodhound</a></td>
+					<td><a href="#">Dogue Alem&atildeo</a></td>
+					<td><a href="#">Pastor de Beauce</a></td>
+					<td><a href="#">Setter Gordon</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Borzoi</a></td>
+					<td><a href="#">Fila Brasileiro</a></td>
+					<td><a href="#">Pastor Belga</a></td>
+					<td><a href="#">S&atildeo Bernardo</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Bouvier de Flandres</a></td>
+					<td><a href="#">Foxhound Ingl&ecircs</a></td>
+					<td><a href="#">Pastor Belga Groenendael</a></td>
+					<td><a href="#">Schnauzer Gigante</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Braco Alem&atildeo</a></td>
+					<td><a href="#">Greyhound</a></td>
+					<td><a href="#">Pastor Belga Laekenois</a></td>
+					<td><a href="#">Setter Ingl&ecircs</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Braco Italiano</a></td>
+					<td><a href="#">Husky Siberiano</a></td>
+					<td><a href="#">Pastor Belga Malinois</a></td>
+					<td><a href="#">Setter Irland&ecircs</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Briard</a></td>
+					<td><a href="#">Komondor</a></td>
+					<td><a href="#">Pastor Belga Tervuren</a></td>
+					<td><a href="#">Terra Nova</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Bullmastiff</a></td>
+					<td><a href="#">Kuvasz</a></td>
+					<td><a href="#">Pastor Branco Su&ccedilo</a></td>
+					<td><a href="#">Tosa</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Cane Corso Italiano</a></td>
+					<td><a href="#">Labrador</a></td>
+					<td><a href="#">Pastor de C&aacuteucaso</a></td>
+					<td><a href="#">Vizsla</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">C&atildeo da Serra da Estrela</a></td>
+					<td><a href="#">Malamute do Alaska</a></td>
+					<td><a href="#">Pastor de Tatra</a></td>
+					<td><a href="#">Weimaraner</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">C&atildeo D'&aacutegua Portugu&ecircs</a></td>
+					<td><a href="#">Maremmano</a></td>
+					<td><a href="#">Pastor dos Pirineus</a></td>
+					<td><a href="#">Wolfhound Irland&ecircs</a></td>
+				</tr>
+			</table>
+		</div>
+		<div id="textaba4" class="divunsel">
+		</div>
+		<script src="whichdog1.js"></script>
+	</body>
+</html>
+

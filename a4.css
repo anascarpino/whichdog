@@ -1,0 +1,58 @@
+.chihuahua h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.coton h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.cristado h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.chihuahua p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.coton p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.cristado p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.chihuahua h3 {
+	color: #fff;
+}
+
+.coton h3 {
+	color: #fff;
+}
+
+.cristado h3 {
+	color: #fff;
+}

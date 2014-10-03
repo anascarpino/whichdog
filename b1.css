@@ -1,0 +1,58 @@
+.pitbull h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.cattle h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.shepherd h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.pitbull p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.cattle p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.shepherd p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.pitbull h3 {
+	color: #fff;
+}
+
+.shepherd h3 {
+	color: #fff;
+}
+
+.cattle h3 {
+	color: #fff;
+}

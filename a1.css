@@ -1,0 +1,51 @@
+.bassetfulvo h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.beagle h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.basenji h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+html {
+	background-color: black;
+}
+
+.basenji p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.beagle p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.bassetfulvo p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.basenji h3 {
+	color: #fff;
+}
+
+.bassetfulvo h3 {
+	color: #fff;
+}
+
+.beagle h3 {
+	color: #fff;
+}

@@ -1,0 +1,58 @@
+.poodle h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.schnauzer h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.sharpei h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.poodle p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.schnauzer p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.sharpei p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.poodle h3 {
+	color: #fff;
+}
+
+.schnauzer h3 {
+	color: #fff;
+}
+
+.sharpei h3 {
+	color: #fff;
+}

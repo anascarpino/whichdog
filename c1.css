@@ -1,0 +1,58 @@
+.afghan h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.airedale h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.akbash h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.airedale p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.afghan p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.akbash p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.airedale h3 {
+	color: #fff;
+}
+
+.afghan h3 {
+	color: #fff;
+}
+
+.akbash h3 {
+	color: #fff;
+}

@@ -1,0 +1,58 @@
+.clumber h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.americano h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.ingles h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.clumber p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.americano p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.ingles p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.clumber h3 {
+	color: #fff;
+}
+
+.americano h3 {
+	color: #fff;
+}
+
+.ingles h3 {
+	color: #fff;
+}

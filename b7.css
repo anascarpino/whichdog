@@ -1,0 +1,58 @@
+.nova h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.pastor h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.podengo h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.nova p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.pastor p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.podengo p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.nova h3 {
+	color: #fff;
+}
+
+.pastor h3 {
+	color: #fff;
+}
+
+.podengo h3 {
+	color: #fff;
+}

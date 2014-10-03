@@ -1,0 +1,58 @@
+.bulldog h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.boxer h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.border h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.bulldog p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.boxer p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.border p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.bulldog h3 {
+	color: #fff;
+}
+
+.boxer h3 {
+	color: #fff;
+}
+
+.border h3 {
+	color: #fff;
+}
