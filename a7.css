@@ -1,0 +1,90 @@
+.pinscher h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.pug h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.puli h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.schipperke h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.schnauzer h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.pinscher p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.pug {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.puli p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.schipperke p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.schnauzer p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.pinscher h3 {
+	color: #fff;
+}
+
+.pug h3 {
+	color: #fff;
+}
+
+.puli h3 {
+	color: #fff;
+}
+
+.schipperke h3 {
+	color: #fff;
+}
+
+.schnauzer h3 {
+	color: #fff;
+}

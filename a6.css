@@ -1,0 +1,90 @@
+.lhasa h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.maltes h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.lulu h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.terrier h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.pequines h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.lhasa p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.pequines p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.lulu p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.maltes p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.terrier p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.pequines h3 {
+	color: #fff;
+}
+
+.lulu h3 {
+	color: #fff;
+}
+
+.lhasa h3 {
+	color: #fff;
+}
+
+.maltes h3 {
+	color: #fff;
+}
+
+.terrier h3 {
+	color: #fff;
+}

@@ -1,0 +1,90 @@
+.shiba h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.terrier h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.shihtzu h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.teckel h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.brasileiro h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.shiba p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.terrier {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.shihtzu p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.teckel p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.brasileiro p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.shiba h3 {
+	color: #fff;
+}
+
+.terrier h3 {
+	color: #fff;
+}
+
+.shihtzu h3 {
+	color: #fff;
+}
+
+.teckel h3 {
+	color: #fff;
+}
+
+.brasileiro h3 {
+	color: #fff;
+}

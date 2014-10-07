@@ -1,0 +1,74 @@
+.cardigan h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.corgi h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.terrier h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.yorkshire h2 {
+	color: #fff;
+	font-size: 50px;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+.principal {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	background-color: black;
+}
+
+.cardigan p {
+	color: #fff;
+	text-indent: 20px; 
+}
+
+.corgi {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.terrier p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.yorkshire p {
+	color: #fff;
+	text-indent: 20px;
+}
+
+.cardigan h3 {
+	color: #fff;
+}
+
+.corgi h3 {
+	color: #fff;
+}
+
+.terrier h3 {
+	color: #fff;
+}
+
+.yorkshire h3 {
+	color: #fff;
+}
